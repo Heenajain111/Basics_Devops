@@ -1,10 +1,13 @@
 apply plugin: 'java'
 
-jar{
+repositories{
+   
+   mavenCentral()
+}
 
-manifest{
+dependencies {
 
-attribute("Main Class": "HelloWorld")
-     
-        }
-    }
+testCompile 'junit:junit:4.11'
+
+             }
+
