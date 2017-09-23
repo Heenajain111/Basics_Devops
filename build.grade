@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+jar{
+
+manifest{
+
+attribute("Main Class": "HelloWorld")
+     
+        }
+    }
